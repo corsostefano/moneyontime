@@ -22,7 +22,7 @@
     <!--Favicon-->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-incon">
     <!--title-->  
-    <title>MoneyOntime | ¿Quiénes-Somos?</title>
+    <title>MoneyOntime | Contactanos</title>
 </head>
 <body>
     <!--Menú-->
@@ -33,9 +33,9 @@
                 <input type="checkbox" id="check">
                 <label for="check" class="checkBtn"><i class="fas fa-bars"></i></label>
                 <ul>
-                    <li><a href="index.html">Personas</a></li>
+                    <li><a class="active" href="index.html">Personas</a></li>
                     <li><a href="empresas.html">Empresas</a></li>
-                    <li><a class="active" href="nosotros.html">¿Quiénes Somos?</a></li>
+                    <li><a href="nosotros.html">¿Quiénes Somos?</a></li>
                     <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
                     <li><a href="contactos.html">Contactos</a></li>
                 </ul>    
@@ -44,26 +44,66 @@
     </header>
     <!--Contenido-->
     <main>
-        <!--titulo&imagen-->
-        <div class="container">
-            <div class="row text-center section10 containerForm">
-              <div class="col-12 py-5 containerS">
-                <div>
-                  <h2 class="botonAyuda">¿Quiénes Somos?</h2>
-                  <img class="imgAyuda" src="./img/moneyontime-nosotros.png" alt="">
-                </div>
-              </div>
+        <!--contactanos & formulario de contacto-->
+        <div class="section14">
+            <div class="container-fluid section14A">
+                <h1 class="h14A">
+                   Realiza tu consulta 
+                </h1>
+                <form class="formSection1" action="">
+                    <fieldset>
+                        <legend>Cotiza tu envió</legend>
+                        <div>
+                            <label for="">Nombre:</label>
+                        </div>
+                        <div>
+                            <input class="field" type="text" name="nombre"  placeholder="Nombre">
+                        </div>
+                        <div>
+                            <label for="">Apellido:</label>
+                        </div>
+                        <div>
+                            <input class="field" type="text" name="apellido"  placeholder="Apellido">
+                        </div>
+                        <div>
+                            <label for="">Email</label>
+                        </div>
+                        <div>
+                            <input class="field" type="email" name="apellido"  placeholder="xxxx@gmail.com">
+                        </div>
+                        <div>
+                            De que país eres:
+                            <select class="field" name="pais">
+                              <option value="1">Argentina</option>
+                              <option value="2">España</option>
+                              <option value="3">México</option>
+                              <option value="4">Guatemala</option>
+                              <option value="5">Honduras</option>
+                              <option value="7">El Salvador</option>
+                              <option value="8">Venezuela</option>
+                              <option value="9">Colombia</option>
+                              <option value="10">Cuba</option>
+                              <option value="11">Bolivia</option>
+                              <option value="13">Perú</option>
+                              <option value="14">Ecuador</option>
+                              <option value="15">Paraguay</option>
+                              <option value="16">Uruguay</option>
+                              <option value="17">Chile</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="">comentario</label>
+                            <textarea name="comentario" id="textarea" cols="30" rows="10">comentario</textarea>
+                        </div>
+                       
+                        <div class="centerBtn">
+                            <input type="submit" class="boton" value="Enviar">
+                            <label id="segurity" for=""><i class="fas fa-shield-alt"></i>Información Confidencial </label>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </div>
-        <!--Parrafo-->
-        <div class="container">
-            <div class="row section11">
-              <div class="col-12 text-center">
-                <p>"Somos una organización que te permite hacer trasferencias online de forma rápida, segura y con el mejor tipo de cambio. Actualmente tenemos como rutas de origen Argentina, Colombia, Brasil, Chile, España, Ecuador, México y Perú. Países desde los que podrás hacer transferencias internacionales y nacionales hacia el destino que necesites"</p>
-              </div>
-            </div>
-          </div>
-        </div>    
     </main>
     <!--Footer_Pie_de_pagina-->
     <footer>
