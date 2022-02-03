@@ -426,7 +426,8 @@ main div div form {
         font-size: 12px; }
       main div div form fieldset div #textarea {
         width: 80%;
-        height: 100px; }
+        height: 100px;
+        background-color: white; }
       main div div form fieldset div .boton {
         display: inline-flex;
         align-items: center;
@@ -666,6 +667,4 @@ main div div form {
           transition: .3s ease all;
           border-radius: 5px; }
           main div div form fieldset div .boton:hover {
-            background: #f6d76d; }
-        main div div form fieldset div #segurity {
-          color: #9b9b9b; } }
+            background: #f6d76d; } }

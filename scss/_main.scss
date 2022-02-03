@@ -247,7 +247,8 @@ main{
                         }
                         #textarea{
                             width: 80%;
-                            height: 100px
+                            height: 100px;
+                            background-color: white;
                         }
                         .boton{
                             @include botones;
@@ -506,9 +507,6 @@ main{
                             }
                             .boton{
                                 @include botones;
-                            }
-                            #segurity{
-                                color: rgb(155, 155, 155);
                             }
                         }
                     }         
