@@ -4,61 +4,6 @@ $dorado:#cc9a37;
 $doradoclaro: #f6d76d;
 $seccionColor: #655d59;
 $fondoTrasnparente:#eaecefa8;
-//menu_responsive_mixin
-@mixin menuResposive {
-    header{
-        nav{
-            .header{
-               display: flex;
-               justify-content: space-between;
-               align-items: center;
-            }
-            .checkBtn{
-                display: block;
-                color: black;
-                font-size: 30px;
-                float: right;
-                line-height: 80px;
-                margin-right: 40px;
-                cursor:pointer;
-            }
-            div{
-                .logo{
-                    height: 50px;
-                    margin-left: 40px;
-                }
-                ul{
-                    text-decoration: none;
-                    position: fixed;
-                    width: 100%;
-                    height: 100%;
-                    top: 0px;
-                    left: -100%;
-                    text-align: center;
-                    transition: all .5s;
-                    flex-direction: column;
-                    margin-top: 85px;
-                    background-color: #f2f4f6;
-                    li{
-                        display: block;
-                        margin: 20px 0 0 0;
-                        list-style: 30px;
-                        a{
-                            font-size: 20px;
-                            flex-direction: column;
-                            &.active, &:hover{
-                                color: $dorado;
-                                color: white;
-        
-                            }
-                        }
-                    }
-                }
-                
-            }
-        }
-    }
-}
 //botones
 @mixin botones {
     display: inline-flex;

@@ -45,7 +45,8 @@ header nav {
   header nav .header {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    position: relative; }
   header nav .checkBtn {
     display: block;
     color: black;
@@ -84,7 +85,8 @@ header nav {
   header nav .header {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    position: relative; }
   header nav .checkBtn {
     display: block;
     color: black;
@@ -117,8 +119,7 @@ header nav {
         flex-direction: column; }
         header nav div ul li a.active, header nav div ul li a:hover {
           color: #cc9a37;
-          color: white; }
-  position: fixed; }
+          color: white; } }
 
 footer {
   width: 100%;
