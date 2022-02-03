@@ -1,0 +1,516 @@
+@charset "UTF-8";
+header nav {
+  background: #eaecef;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  header nav div #check:checked ~ ul {
+    left: 0%; }
+  header nav div #check {
+    display: none; }
+  header nav div ul {
+    float: right;
+    margin-right: 20px; }
+    header nav div ul li {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px; }
+      header nav div ul li a {
+        color: black;
+        font-size: 18px;
+        padding: 7px 13px;
+        text-decoration: none;
+        border-radius: 3px; }
+        header nav div ul li a.active, header nav div ul li a:hover {
+          background: #cc9a37;
+          transition: .5s;
+          color: white; }
+
+@media (min-width: 1030px) {
+  header nav div {
+    display: flexbox;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%; }
+    header nav div .enlace {
+      padding: 20px 50px; }
+    header nav div .logo {
+      height: 50px;
+      margin-left: 40px; }
+    header nav div .checkBtn {
+      display: none; } }
+
+@media (max-width: 1029px) {
+  header nav .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  header nav .checkBtn {
+    display: block;
+    color: black;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer; }
+  header nav div .logo {
+    height: 50px;
+    margin-left: 40px; }
+  header nav div ul {
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    flex-direction: column;
+    margin-top: 85px;
+    background-color: #f2f4f6; }
+    header nav div ul li {
+      display: block;
+      margin: 20px 0 0 0;
+      list-style: 30px; }
+      header nav div ul li a {
+        font-size: 20px;
+        flex-direction: column; }
+        header nav div ul li a.active, header nav div ul li a:hover {
+          color: #cc9a37;
+          color: white; } }
+
+@media (max-width: 858px) {
+  header nav .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  header nav .checkBtn {
+    display: block;
+    color: black;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer; }
+  header nav div .logo {
+    height: 50px;
+    margin-left: 40px; }
+  header nav div ul {
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    flex-direction: column;
+    margin-top: 85px;
+    background-color: #f2f4f6; }
+    header nav div ul li {
+      display: block;
+      margin: 20px 0 0 0;
+      list-style: 30px; }
+      header nav div ul li a {
+        font-size: 20px;
+        flex-direction: column; }
+        header nav div ul li a.active, header nav div ul li a:hover {
+          color: #cc9a37;
+          color: white; }
+  position: fixed; }
+
+footer {
+  width: 100%;
+  background: #ffffff;
+  color: black; }
+  footer div .containerAllFooter {
+    width: 100%;
+    max-width: 100%;
+    margin: auto; }
+  footer div div .containerFooter1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px; }
+  footer div div div .column1 {
+    max-width: 400px; }
+  footer div div div div h2 {
+    font-size: 22px; }
+  footer div div div div p {
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+    text-align: justify; }
+  footer div div div .column2 {
+    max-width: 400px; }
+  footer div div div div .row1 {
+    margin-top: 20px;
+    display: flex; }
+  footer div div div div div a img {
+    width: 30px;
+    height: 30px; }
+  footer div div div div div a label {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black; }
+  footer div div div .column3 {
+    max-width: 600px; }
+  footer div div div div h2 {
+    font-size: 22px; }
+  footer div div div div .row2 {
+    margin-top: 20px; }
+  footer div div div div div img {
+    width: 25px;
+    height: 25px; }
+  footer div div div div div label {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 300px; }
+  footer div div .containerFooter2 {
+    background: #f2f4f6;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    font-size: 0.3cm; }
+  footer div div div h3 {
+    font-size: 0.3cm; }
+  footer div div div a {
+    color: black;
+    text-decoration: none; }
+
+@media (max-width: 952px) {
+  footer div {
+    flex-wrap: wrap; }
+    footer div div div .column1 {
+      max-width: 100%; }
+    footer div div div .column2 {
+      margin-top: 40px; }
+    footer div div div .column3 {
+      margin-top: 40px; }
+    footer div div div div div .labelFooter {
+      font-size: 10.5px; }
+    footer div div div div div .correo {
+      font-size: 12px; }
+    footer div div div div h3 {
+      font-size: 0.3cm; }
+    footer div div div div a {
+      color: black;
+      text-decoration: none; } }
+
+main .section1 {
+  background-image: url(../img/envia-dinero.png);
+  background-size: cover;
+  padding: 40px;
+  width: 100%;
+  height: 700px; }
+
+main div .section1A {
+  display: flex;
+  justify-content: space-between; }
+
+main div div .h1A {
+  color: black;
+  text-transform: uppercase;
+  margin: 20px;
+  width: 490px;
+  height: 200px;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #eaecefa8; }
+
+main div div form {
+  display: flex;
+  width: 360px;
+  background: rgba(255, 255, 255, 0.719);
+  padding: 30px;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  margin-top: 25px; }
+  main div div form fieldset {
+    line-height: 2.5em;
+    border-radius: 4px;
+    border: solid 3px #999; }
+    main div div form fieldset div {
+      line-height: 1.6em; }
+      main div div form fieldset div .field {
+        border: solid 1px black;
+        padding: 10px;
+        width: 210px;
+        border-radius: 4px; }
+      main div div form fieldset div .fieldMoneda {
+        border: solid 1px black;
+        padding: 10px;
+        width: 70px;
+        font-size: 12px; }
+      main div div form fieldset div .boton {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 40px;
+        margin: 10px;
+        background: #cc9a37;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: .3s ease all;
+        border-radius: 5px; }
+        main div div form fieldset div .boton:hover {
+          background: #f6d76d; }
+      main div div form fieldset div #segurity {
+        color: #9b9b9b; }
+
+main div div .section2 {
+  align-items: center; }
+
+main div div div h2 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+
+main div div div a {
+  text-decoration: none; }
+  main div div div a .boton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    background: #cc9a37;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px; }
+    main div div div a .boton:hover {
+      background: #f6d76d; }
+
+main div div .section3 {
+  line-height: 1.6em;
+  background-color: #786d67;
+  color: white; }
+
+main div div .section4 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px; }
+
+main .section5 {
+  background-image: url(../img/envio-de-dinero-empresas.png);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  padding: 20px; }
+
+main .section7 {
+  background-image: url(../img/moneyontime-empresas.png);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  padding: 20px; }
+
+main div .h1E {
+  color: black;
+  text-transform: uppercase;
+  margin: 5px;
+  margin-top: 0px;
+  width: 380px;
+  height: 100px;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+  background-color: #eaecefa8;
+  margin-top: 550px; }
+
+main div .section8 {
+  background-color: #d1c5b7; }
+
+main div div .section9 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%; }
+
+main div .section10 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+main div div div div .imgAyuda {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px; }
+
+main div .section11 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media (max-width: 858px) {
+  main .section1 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url(../img/moneyontime-banner.png); }
+  main div .section1A {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center; }
+  main div div .h1A {
+    color: black;
+    text-transform: uppercase;
+    margin: 5px;
+    margin-top: 0px;
+    width: 490px;
+    height: 170px;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #eaecefa8; }
+  main div div form {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 410px;
+    background: rgba(255, 255, 255, 0.719);
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    color: black; }
+    main div div form fieldset {
+      line-height: 2.5em;
+      border-radius: 4px;
+      border: solid 3px #999; }
+      main div div form fieldset div {
+        line-height: 1.6em; }
+        main div div form fieldset div .field {
+          border: solid 1px black;
+          padding: 10px;
+          width: 210px;
+          border-radius: 4px; }
+        main div div form fieldset div .fieldMoneda {
+          border: solid 1px black;
+          padding: 10px;
+          width: 70px;
+          font-size: 12px; }
+        main div div form fieldset div .boton {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 250px;
+          height: 40px;
+          margin: 10px;
+          background: #cc9a37;
+          color: white;
+          font-size: 20px;
+          font-weight: 500;
+          border: none;
+          cursor: pointer;
+          text-transform: uppercase;
+          transition: .3s ease all;
+          border-radius: 5px; }
+          main div div form fieldset div .boton:hover {
+            background: #f6d76d; }
+        main div div form fieldset div #segurity {
+          color: #9b9b9b; }
+  main div div .section2 {
+    align-items: center; }
+  main div div div h2 {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px; }
+  main div div div h3 {
+    font-size: 20px; }
+  main div div div a {
+    text-decoration: none; }
+    main div div div a .boton {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+      height: 40px;
+      margin: 10px;
+      background: #cc9a37;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: .3s ease all;
+      border-radius: 5px; }
+      main div div div a .boton:hover {
+        background: #f6d76d; }
+  main div div .section4 {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px; }
+  main div div div .ulViñetas {
+    margin-top: 20px;
+    margin: 20px; }
+  main .section5 {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center; }
+  main .section7 {
+    width: auto;
+    height: 300px;
+    background-image: url(../img/moneyontime-empresas.png);
+    background-size: cover;
+    padding: 20px;
+    align-items: center;
+    justify-content: center; }
+  main div .h1E {
+    color: black;
+    text-transform: uppercase;
+    width: 380px;
+    height: 100px;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    background-color: #eaecefa8;
+    margin-top: 170px; }
+  main div .section9 {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: auto; }
+  main div div .section9_1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: auto; }
+  main div div .section9_2 {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: auto; }
+  main div .section10 {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  main div div div div .imgAyuda {
+    width: 380px;
+    height: auto;
+    border-radius: 10px; } }
