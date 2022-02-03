@@ -210,7 +210,7 @@ main{
                 text-transform: uppercase;
                 margin: 20px;
                 width: 490px;
-                height: 200px;
+                height: 50px;
                 border-radius: 4px;
                 text-align: center;
                 justify-content: space-between;
@@ -471,7 +471,7 @@ main{
                     margin: 5px;
                     margin-top: 0px;
                     width: 490px;
-                    height: 60px;
+                    height: 50px;
                     border-radius: 4px;
                     text-align: center;
                     justify-content: space-between;
@@ -507,6 +507,9 @@ main{
                             }
                             .boton{
                                 @include botones;
+                            }
+                            #textarea{
+                                background-color: white;
                             }
                         }
                     }         
