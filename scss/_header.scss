@@ -14,15 +14,15 @@ header{
             }
             ul{
                 float: right;
-                margin-right: 20px;
+                margin-right: 0px;
                 li{
                     display: inline-block;
                     line-height: 80px;
                     margin: 0 5px;
                     a{
                         color: black;
-                        font-size: 18px;
-                        padding: 7px 13px;
+                        font-size: 16px;
+                        padding: 4px 7px;
                         text-decoration: none;
                         border-radius: 3px;
                         &.active, &:hover{
@@ -36,11 +36,11 @@ header{
         }
     }
 }
-@media(min-width: 1030px){
+@media(min-width: 858px){
     header{
         nav{
             div{
-                display: flexbox;
+                display:flex;
                 justify-content: space-between;
                 width: 100%;
                 height: 100%;
@@ -50,7 +50,7 @@ header{
                 }
                 .logo{
                     height: 50px;
-                    margin-left: 40px;
+                    margin-left: 20px;
                 }
                 .checkBtn{
                     display: none;
@@ -61,7 +61,7 @@ header{
     }
 }
 //menu_responsive_mixin
-@mixin menuResposive {
+@media(max-width: 858px){
     header{
         nav{
             .header{
@@ -115,10 +115,4 @@ header{
             }
         }
     }
-}
-@media(max-width: 1029px){
-    @include menuResposive;
-}
-@media(max-width: 858px){
-    @include menuResposive;
 }
