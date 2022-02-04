@@ -567,7 +567,8 @@ main div div form {
     color: black;
     border-radius: 5px;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-left: 25px; }
   main div .section9 {
     flex-wrap: wrap;
     align-items: center;
