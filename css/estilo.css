@@ -565,7 +565,9 @@ main div div form {
     background-color: #786d67;
     margin: 22px;
     color: white;
-    border-radius: 5px; }
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center; }
   main div .section9 {
     flex-wrap: wrap;
     align-items: center;
