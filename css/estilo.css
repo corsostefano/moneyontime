@@ -562,9 +562,9 @@ main div div form {
     margin-top: 170px; }
   main div div .section8 {
     width: 370px;
-    background-color: #786d67;
+    background-color: white;
     margin: 22px;
-    color: white;
+    color: black;
     border-radius: 5px;
     align-items: center;
     justify-content: center; }
