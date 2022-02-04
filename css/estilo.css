@@ -259,7 +259,8 @@ main div div div a {
 main div div .section3 {
   line-height: 1.6em;
   background-color: #786d67;
-  color: white; }
+  color: white;
+  border-radius: 5px; }
 
 main div div .section4 {
   display: flex;
@@ -295,14 +296,34 @@ main div .h1E {
   background-color: #eaecefa8;
   margin-top: 550px; }
 
-main div .section8 {
-  background-color: #d1c5b7; }
+main div div .section8 {
+  background-color: #d1c5b7;
+  margin: 20px;
+  color: white;
+  border-radius: 5px; }
 
-main div div .section9 {
+main div .section9 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   height: 100%; }
+
+main div div .section9_1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  border-radius: 5px; }
+
+main div div div .imgCafe {
+  border-radius: 5px; }
+
+main div div .section9_2 {
+  margin-top: 30px;
+  display: block;
+  justify-content: left;
+  width: 400px;
+  padding: 5px; }
 
 main div .section10 {
   display: flex;
@@ -548,12 +569,11 @@ main div div form {
     justify-content: center;
     width: auto; }
   main div div .section9_2 {
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 20px;
     display: block;
-    align-items: center;
-    justify-content: center;
-    width: auto; }
+    justify-content: left;
+    width: 400px;
+    padding: 5px; }
   main div .section10 {
     display: flex;
     align-items: center;
