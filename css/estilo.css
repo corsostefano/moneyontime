@@ -297,7 +297,7 @@ main div .h1E {
   margin-top: 550px; }
 
 main div div .section8 {
-  background-color: #d1c5b7;
+  background-color: #786d67;
   margin: 20px;
   color: white;
   border-radius: 5px; }
@@ -334,13 +334,15 @@ main div div div div .botonAyuda {
   background-color: #cc9a37;
   color: white;
   border-radius: 5px;
-  height: 45px; }
+  height: 45px;
+  justify-content: space-between; }
 
 main div div div div .imgAyuda {
   width: auto;
   height: auto;
   border-radius: 10px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  justify-content: space-between; }
 
 main div .section11 {
   display: flex;
@@ -558,6 +560,12 @@ main div div form {
     justify-content: center;
     background-color: #eaecefa8;
     margin-top: 170px; }
+  main div div .section8 {
+    width: 380px;
+    background-color: #786d67;
+    margin: 20px;
+    color: white;
+    border-radius: 5px; }
   main div .section9 {
     flex-wrap: wrap;
     align-items: center;
